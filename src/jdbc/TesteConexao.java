@@ -9,7 +9,7 @@ public class TesteConexao {
 
         final String url = "jdbc:mysql://localhost";
         final String usuario = "root";
-        final String senha = "12345678";
+        final String senha = "rootpass";
 
         Connection conexao = DriverManager.getConnection(url, usuario, senha);
         System.out.println("Conexão efeturada com sucesso");
